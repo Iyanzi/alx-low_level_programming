@@ -1,11 +1,15 @@
 #include <stdio.h>
+#include <string.h>
 /**
-* main- Serves as the entry point for the program
+*main - Main function of my project
 *
-* Return: By default returns to zero if no errors otherwise returns non-zero value
+*
+*Return: return 0 everytime
 */
 int main(void)
 {
-	puts("\"Programming is like building a mulitilingual puzzle");
-	return (0);
+char diplayed[52];
+strcpy(displayed, "\"Programming is like building a mulitilingual puzzle");
+puts(displayed);
+return (0);
 }
