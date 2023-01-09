@@ -79,4 +79,3 @@ int check_num(char *str)
 
 		return (0);
 	}
-
